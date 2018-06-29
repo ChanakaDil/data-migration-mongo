@@ -1,0 +1,10 @@
+spring:
+    data:
+        mongodb:
+            authentication-database: admin
+            database: usports-populated-chanaka
+            host: ec2-54-200-186-183.us-west-2.compute.amazonaws.com
+            port: 27017
+            username: usports-user
+            password: bd56af8d-1b79-4f78-9aab-9bf997e9276c
+s3-image-url: https://s3-ap-southeast-1.amazonaws.com/usports-meta-data/university-profile-images/
